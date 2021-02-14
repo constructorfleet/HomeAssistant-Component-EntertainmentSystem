@@ -52,17 +52,6 @@ CONF_TURN_ON_ACTION = "turn_on_action"
 CONF_TURN_OFF_ACTION = "turn_off_action"
 CONF_POWER_STATE_TEMPLATE = "power_state_template"
 CONF_MEDIA_SOURCES = "media_sources"
-CONF_MEDIA_PLAYER = "media_player"
+CONF_ON_SOURCE_CHANGED = "on_source_changed"
 CONF_REMOTE = "remote"
 
-VALID_STATES = [
-    STATE_ON,
-    STATE_OFF,
-    "true",
-    "false",
-    STATE_IDLE,
-    STATE_PAUSED,
-    STATE_PLAYING,
-    STATE_UNKNOWN,
-    STATE_UNAVAILABLE
-    ]
